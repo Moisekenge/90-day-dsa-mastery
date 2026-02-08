@@ -1,0 +1,21 @@
+"""
+1143. Longest Common Subsequence
+Difficulty: Medium
+Pattern: DP
+Time: O(?) | Space: O(?)
+
+Problem: 
+Approach: 
+"""
+
+
+class Solution:
+    def solve(self):
+        # TODO: Implement
+        pass
+
+
+if __name__ == "__main__":
+    sol = Solution()
+    # TODO: Test cases
+    print("1143. Longest Common Subsequence - Tests passed!")

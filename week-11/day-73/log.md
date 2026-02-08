@@ -1,0 +1,13 @@
+# Day 73 - 
+## 🎯 Goal
+Docker + Deployment
+## ✅ Problems
+| # | Problem | Diff | Time | Pattern | Status |
+|---|---------|------|------|---------|--------|
+| | | | | | |
+## 📚 Learned
+- 
+## ⚠️ Struggled
+- 
+## 📊 Stats
+- Total: 
