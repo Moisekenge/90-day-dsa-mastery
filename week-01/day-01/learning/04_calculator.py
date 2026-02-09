@@ -6,12 +6,36 @@ Handle division by zero, invalid input. Loop until 'quit'.
 
 
 def calculator():
-    # TODO: Implement
-    # 1. Get input (two numbers + operator)
-    # 2. Perform operation
-    # 3. Handle errors (division by zero, invalid input)
-    # 4. Loop until user types 'quit'
-    pass
+    while True:
+        user_input = input("Type 'quit' to exit or press Enter to continue: ")
+        if user_input == "quit":
+            print("Goodbye.")
+            break
+
+        try:
+            num1 = float(input("Enter a number: "))
+            operator = input("Enter an operator (+, -, *, /): ")
+            num2 = float(input("Enter a second number: "))
+
+            if operator == "+":
+                result = num1 + num2
+            elif operator == "-":
+                result = num1 - num2
+            elif operator == "*":
+                result = num1 * num2
+            elif operator == "/":
+                if num2 == 0:
+                    print("Error: Division by zero.")
+                    continue
+                result = num1 / num2
+            else:
+                print("Error: Invalid operator.")
+                continue
+
+            print("Result:", result)
+
+        except ValueError:
+            print("Error: Please enter valid numbers.")
 
 
 if __name__ == "__main__":
